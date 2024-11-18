@@ -31,3 +31,56 @@ Implementation:
 10.Predicting the Output
 
 11.Result visualization
+
+### Installation Guide
+
+Follow these steps to set up and run the stock trend prediction web app:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/username/stock-trend-prediction-app.git
+   cd stock-trend-prediction-app
+   ```
+
+2. **Set Up a Virtual Environment** (Recommended):
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install Dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Download the Pre-trained Model**:
+   Ensure that `keras_model.h5` is placed in the project directory.
+
+5. **Run the Application**:
+   ```bash
+   streamlit run app.py
+   ```
+
+6. **Access the App**:
+   Open your web browser and navigate to:
+   ```
+   http://localhost:8501
+   ```
+
+### Requirements
+- Python 3.x
+- Streamlit
+- Keras
+- TensorFlow
+- Pandas
+- NumPy
+- Matplotlib
+- yfinance
+
+### Troubleshooting
+- Ensure that all dependencies are installed correctly.
+- For issues related to virtual environments, verify that the correct environment is activated.
+- If encountering errors with `yfinance`, ensure you have an active internet connection.
+
+This guide will help you set up and launch the app seamlessly.
+
